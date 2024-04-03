@@ -3,7 +3,7 @@
 *Plugin Name: VP EPINS
 *Plugin URI: http://vtupress.com
 *Description: Add E-Pins feature to your vtu business . An extension for vtupress plugin
-*Version: 1.3.9
+*Version: 1.4.0
 *Author: Akor Victor
 *Author URI: https://facebook.com/akor.victor.39
 */
