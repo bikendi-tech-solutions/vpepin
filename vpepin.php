@@ -3,7 +3,7 @@
 *Plugin Name: VP EPINS
 *Plugin URI: http://vtupress.com
 *Description: Add E-Pins feature to your vtu business . An extension for vtupress plugin
-*Version: 1.4.0
+*Version: 1.4.1
 *Author: Akor Victor
 *Author URI: https://facebook.com/akor.victor.39
 */
@@ -73,6 +73,8 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
 );
 //Set the branch that contains the stable release.
 $myUpdateChecker->setBranch('main');
+
+$myUpdateChecker->setAuthentication('your-token-here');
 
 $myUpdateChecker->getVcsApi()->enableReleaseAssets();
 
