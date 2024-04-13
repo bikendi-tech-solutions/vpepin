@@ -67,7 +67,7 @@ require __DIR__.'/plugin-update-checker/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(
-	'https://github.com/bikendi-tech-solutions/vpepin',
+	'https://github.com/bikendi-tech-solutions/vpepin/',
 	__FILE__,
 	'vpepin'
 );
